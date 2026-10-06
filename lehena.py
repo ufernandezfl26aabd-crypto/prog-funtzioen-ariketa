@@ -1,3 +1,15 @@
+def lehena_da(zenbakia) :
+    if (zenbakia < 2 ) :
+        return False
+iteratzailea = 2 
+lehena = True 
+
+while lehena and ( iteratzailea < zenbakia ):
+    if zenbakia % iteratzailea == 0  :
+        lehena = False
+        iteratzailea + 1
+        
+
 zenbakia = int(input("zenbaki bat eman "))
 
 bikoitza = zenbakia * 2
@@ -15,3 +27,4 @@ if aurkitua :
     print("Aurkitu dut")
 else :
     print("Ez dut aurkitu")
+
